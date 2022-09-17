@@ -1,4 +1,20 @@
-
+import discordPresence from 'discord-rpc';
+import { app, BrowserWindow, ipcMain } from 'electron';
+import { join } from 'path';
+import { format } from 'url';
+import { Client } from 'discord.js';
+import { config } from 'dotenv';
+import { readdirSync } from 'fs';
+import { join as joinPath } from 'path';
+import { Collection } from 'discord.js';
+import { Player } from 'discord-player';
+import { MessageEmbed } from 'discord.js';
+import { MessageAttachment } from 'discord.js';
+import { Message } from 'discord.js';
+import { MessageActionRow } from 'discord.js';
+import { MessageButton } from 'discord.js';
+import { MessageEmbedOptions } from 'discord.js';
+import { MessageButtonOptions } from 'discord.js';
 
 
 
